@@ -7,6 +7,25 @@
 ![Screenshot_1](/preview-project/print1.jpeg "Screenshot_1")!
 
 
+<table>
+    <tr>
+        <td valign="top">
+            <p>Splash Screen</p>
+            <img src="/preview-project/print1.jpeg" height="300" width="150"/>
+          </td>
+    </tr>
+</table>
+<br />
+
+
+
+
+
+
+
+
+
+
 
 <h3>🎯 Objetivo</h3>
 <p>Desenvolver um app para marcar jogatinas com amigos</p>
