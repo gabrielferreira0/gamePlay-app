@@ -1,4 +1,4 @@
-# NLW6-Gameplay (Aplicação criada durante a semana NLW6 - Rocketseat)
+# NLW6-Gameplay
 
 <h3>ScreenShots</h3>
 
