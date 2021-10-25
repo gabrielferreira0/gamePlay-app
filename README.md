@@ -4,25 +4,15 @@
 
 <h3>Aplicação criada durante a semana NLW6 - Rocketseat</h3>
 
-![Screenshot_1](/preview-project/print1.jpeg "Screenshot_1")!
-
-
 <table>
     <tr>
         <td valign="top">
             <p>Splash Screen</p>
-            <img src="/preview-project/print1.jpeg" height="300" width="150"/>
+            <img src="/preview-project/print1.jpeg" height="500" width="300"/>
           </td>
     </tr>
 </table>
 <br />
-
-
-
-
-
-
-
 
 
 
