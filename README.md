@@ -1,6 +1,9 @@
-# NLW6-Gameplay (Aplicação criada durante a semana NLW6 - Rocketseat
+# NLW6-Gameplay (Aplicação criada durante a semana NLW6 - Rocketseat)
 
 <h3>ScreenShots</h3>
+
+<h3>Aplicação criada durante a semana NLW6 - Rocketseat</h3>
+
 ![Screenshot_1](/preview-project/print1.jpeg "Screenshot_1")!
 
 
