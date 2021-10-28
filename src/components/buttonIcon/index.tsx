@@ -20,7 +20,7 @@ export function ButtonIcon({ title, ...rest } : Props){
       </View>
 
       <Text style={styles.title}>
-        { title }
+        {title}
       </Text>
     </RectButton>
   );
