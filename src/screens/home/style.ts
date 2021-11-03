@@ -18,4 +18,15 @@ export const style = StyleSheet.create({
     content: {
         marginTop: 42,
     },
+    matches: {
+        marginTop: 24,
+        marginLeft : 24
+    },
+    divisor : {
+        width : '80%',
+        height : 1,
+        backgroundColor : theme.colors.secondary40,
+        marginVertical : 21,
+        alignSelf : 'flex-end'
+    }
 });

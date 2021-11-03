@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { View , Text } from "react-native";
+import { View, Text } from "react-native";
 import { Profile } from "../../components/profile";
 import { ButtonAdd } from "../../components/buttonAdd";
-import { styles } from "../SignIn/styles";
 import { style } from "./style";
 import { CategorySelect } from "../../components/categorySelect";
 import { ListHeader } from '../../components/listHeader';
 import { FlatList } from "react-native-gesture-handler";
+import { Appointments } from '../../components/appointments'
 export function Home() {
 
     const [category, setCategory] = useState('');
@@ -21,7 +21,21 @@ export function Home() {
         },
         category: '1',
         date: '01/11 as 15:50h',
-        description: 'É hoje que vamos trollar na MD10'
+        description: 'É hoje que vamos trollar na MD10',
+
+    },
+    {
+        id: '2',
+        guild: {
+            id: '2',
+            name: 'Lendários',
+            icon: null,
+            owner: 'true'
+        },
+        category: '1',
+        date: '01/11 as 15:50h',
+        description: 'É hoje que vamos trollar na MD10',
+
     }]
 
 
@@ -56,11 +70,16 @@ export function Home() {
             </View>
 
 
-            <FlatList  data={appointments}
-             keyExtractor={item => item.id}  
-             renderItem={({ item }) => (
-                <Text>TESTE </Text>       
-              )} />
+            <FlatList
+                style={style.matches}
+                data={appointments}
+                keyExtractor={item => item.id}
+                renderItem={({ item }) => (
+                    <>
+                        <Appointments data={item} />
+                        <View style={style.divisor} />
+                    </>
+                )} />
         </View>
     );
 }
