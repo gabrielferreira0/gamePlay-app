@@ -8,10 +8,14 @@
     <tr>
         <td valign="top">
             <p>Splash Screen</p>
-            <img src="/preview-project/print1.jpeg" height="500" width="300"/>
+            <img src="/preview-project/print0.jpeg" height="500" width="300"/>
           </td>
           <td valign="top">
             <p>Details Screen</p>
+            <img src="/preview-project/print1.jpeg" height="500" width="300"/>
+          </td>
+           <td valign="top">
+            <p>Splash Screen</p>
             <img src="/preview-project/print2.jpeg" height="500" width="300"/>
           </td>
     </tr>
