@@ -1,7 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { theme } from '../../global/styles/theme';
 
-
+import {getBottomSpace} from 'react-native-iphone-x-helper';
 
 export const styles = StyleSheet.create({
     container: {
@@ -28,5 +28,22 @@ export const styles = StyleSheet.create({
         marginHorizontal: 24,
         marginBottom:30
     },
+    divisor : {
+        width : '78%',
+        height : 1,
+        backgroundColor : theme.colors.secondary40,
+        marginVertical : 31,
+        alignSelf : 'flex-end',
+        marginTop: 2,
+    },
+    members : {
+        marginTop:27,
+        marginLeft:24,
+    },
+    contentButton : {
+    paddingHorizontal:24,
+    paddingVertical:20,
+    marginBottom : getBottomSpace(),
+    }
    
 })

@@ -12,7 +12,7 @@ import { ListHeader } from "../../components/listHeader";
 import BannerImg from '../../assets/banner.png'
 import { Member } from "../../components/members";
 
-
+import { ButtonIcon } from "../../components/buttonIcon";
 
 export function AppointmentDetails() {
 
@@ -51,12 +51,19 @@ export function AppointmentDetails() {
             </ImageBackground>
 
             <View>
-                <ListHeader title="Jogadores" subtitle="Total 3" />
+                <ListHeader title="Jogadores" subtitle="Total 2" />
             </View>
 
-            <FlatList data={members} keyExtractor={item => item.id} renderItem={({ item }) => (
-                <Member data={item}></Member>
+            <FlatList style={styles.members} data={members} keyExtractor={item => item.id} renderItem={({ item }) => (
+                <>
+                    <Member data={item}></Member>
+                    <View style={styles.divisor} />
+                </>
             )} />
+
+            <View style={styles.contentButton}>
+                <ButtonIcon title="Entrar na partida"></ButtonIcon>
+            </View>
         </Background >
 
     )
