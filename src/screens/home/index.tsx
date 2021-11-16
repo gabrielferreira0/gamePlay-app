@@ -64,12 +64,19 @@ export function Home() {
         navigation.navigate('AppointmentDetails')
     }
 
+
+    function handleAppointmentCreate() {
+        navigation.navigate('AppointmentCreate')
+    }
+
+
+
     return (
         <Background>
             <View>
                 <View style={style.header}>
                     <Profile></Profile>
-                    <ButtonAdd></ButtonAdd>
+                    <ButtonAdd onPress={handleAppointmentCreate} ></ButtonAdd>
                 </View>
 
                 <View>

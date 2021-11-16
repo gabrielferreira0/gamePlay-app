@@ -5,11 +5,10 @@ import { styles } from './style';
 import { theme } from "../../global/styles/theme";
 
 
-type Props = RectButtonProps;
 
-export function ButtonAdd({ }: Props) {
+export function ButtonAdd({...rest}: RectButtonProps) {
     return (
-        <RectButton style={styles.container} >
+        <RectButton style={styles.container} {...rest} >
 
             <MaterialCommunityIcons name="plus" size={24} color={theme.colors.heading} />
         </RectButton>
